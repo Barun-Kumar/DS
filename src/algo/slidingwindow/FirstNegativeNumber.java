@@ -8,9 +8,9 @@ public class FirstNegativeNumber {
 
     /**
      * Bruteforce approach, Time : O(n*k)
-     * @param arr
-     * @param k
-     * @return
+     * @param arr : Input array
+     * @param k : Size of the window
+     * @return : List of all negative numbers
      */
     private static List<Integer> firstNegativeNumberOfSizeK(int[] arr, int k){
         List<Integer> ans= new ArrayList<>();
